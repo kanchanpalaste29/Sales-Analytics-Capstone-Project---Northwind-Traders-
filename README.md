@@ -1,12 +1,11 @@
 # Sales Analytics Capstone Project – Northwind Traders
 
-This Sales Analytics capstone project uses the Northwind Traders dataset to build an interactive Power BI dashboard. It analyzes sales performance, customer behavior, inventory trends, and employee efficiency using a MECE framework to support data-driven business decisions.
+This project demonstrates the use of Power BI to transform the Northwind Traders dataset into an interactive analytics dashboard. It presents key business insights through structured analysis and intuitive visualizations to support data-driven decision-making.
 
 ## Project Overview
-This Sales Analytics capstone project focuses on building an interactive Power BI dashboard using the Northwind Traders dataset to analyze key business operations in a wholesale environment. The project aims to uncover insights related to sales performance, customer behavior, inventory efficiency, supplier contribution, and employee performance.
+The Sales Analytics Capstone Project is designed to analyze the end-to-end operations of Northwind Traders, a wholesale food distribution company. The dashboard provides a comprehensive view of revenue trends, customer purchasing patterns, product and inventory status, supplier and logistics efficiency, and employee performance. 
 
-A structured MECE (Mutually Exclusive, Collectively Exhaustive) business framework is applied to ensure comprehensive analysis without overlapping metrics. By integrating data from multiple relational tables and enabling interactive exploration through filters and visuals, the dashboard supports data-driven decision-making and helps stakeholders monitor performance, identify trends, and improve operational efficiency.
-
+A MECE (Mutually Exclusive, Collectively Exhaustive) business framework is applied to ensure that all analytical areas are clearly defined, non-overlapping, and collectively cover the entire business. Interactive filters, drill-downs, and KPI indicators enable stakeholders to explore data dynamically and identify actionable insights that support strategic and operational decisions.
 
 ## Dataset Description
 Dataset Description
@@ -14,27 +13,35 @@ The Northwind database contains the sales data for a fictitious company called �
 
 Table Explanations
 Customers Table
+
 This table stores information about the company's customers. It includes fields for customer ID, company name, contact name, contact title, address, city, region, postal code, country, phone, and fax.
 
 Employees Table
+
 This table stores information about the company's employees. It includes fields for employee ID, last name, first name, title, title of courtesy, birth date, hire date, address, city, region, postal code, country, home phone, extension, photo, notes, reports to, and photo path.
 
 Orders Table
+
 This table stores information about the company's orders. It includes fields for order ID, customer ID, employee ID, order date, required date, shipped date, ship via, freight, ship name, ship address, ship city, ship region, ship postal code, and ship country.
 
 Order Details Table
+
 This table stores detailed information about the items within each order. It includes fields for order ID, product ID, unit price, quantity, and discount.
 
 Products Table
+
 This table stores information about the company's products. It includes fields for product ID, product name, supplier ID, category ID, quantity per unit, unit price, units in stock, units on order, reorder level, and whether the product is discontinued.
 
 Suppliers Table
+
 This table stores information about the company's suppliers. It includes fields for supplier ID, company name, contact name, contact title, address, city, region, postal code, country, phone, fax, and home page.
 
 Shippers Table
+
 This table stores information about the company's shipping companies. It includes fields for shipper ID, company name, and phone.
 
 Categories Table
+
 This table stores information about the product categories. It includes fields for category ID, category name, and description.
 
 
@@ -87,5 +94,4 @@ This project follows a MECE (Mutually Exclusive, Collectively Exhaustive) busine
 - SQL
 - Excel    
 
-## Project Outcome
-The dashboard provides a consolidated and interactive view of Northwind Traders’ operations, enabling stakeholders to identify trends, optimize performance, and make informed strategic decisions.
+
