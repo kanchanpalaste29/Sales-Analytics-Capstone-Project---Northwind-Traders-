@@ -1,4 +1,4 @@
-# Sales Analytics Capstone Project – Northwind Traders
+# Sales Analytics – Northwind Traders
 
 This project demonstrates the use of Power BI to transform the Northwind Traders dataset into an interactive analytics dashboard. It presents key business insights through structured analysis and intuitive visualizations to support data-driven decision-making.
 
